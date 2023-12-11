@@ -21,10 +21,10 @@ HTML Reporting system is hosted at [Github Pages](https://shiro-san-ua.github.io
 ### Installation
 
 1.  Install Node.js.
-1.  Run `git clone https://github.com/SHIRO-SAN-UA/PlaywrightIntro` to clone repository.
+1.  Run `git clone https://github.com/SHIRO-SAN-UA/WebdriverIO` to clone repository.
 1.  Run `npm i to install dependencies.
 
-### How to run tests
+<!-- ### How to run tests
 
 For reference use [Playwright Docs](https://playwright.dev/docs/running-tests)
 
@@ -44,4 +44,4 @@ For reference use [Playwright Docs](https://playwright.dev/docs/running-tests)
 All test cases should be coded inside the `tests` folder.
 Project build using [Page Object Model](https://playwright.dev/docs/pom). The main idea is to encapsulate logic into page classes and use the logic in the spec files to run the tests.
 
-For instance we define the class LoginPage with locators and elements and reuse them in the code.
+For instance we define the class LoginPage with locators and elements and reuse them in the code. -->
