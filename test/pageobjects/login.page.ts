@@ -21,7 +21,11 @@ class LoginPage extends Page {
     }
 
     public get submitButton () {
-        return $('button[type="submit"]');
+        return $('.Button__StyledDefaultButton-sc-44gl5i-0.gBCTym.LoginForm__LoginButton-fhXOmx.eazkBi');
+    }
+
+    public get errorContainer () {
+        return $('[data-testid="login.signin"]');
     }
 
     /**

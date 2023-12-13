@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[name=\"email\"]\"}\n  (Session info: chrome=120.0.6099.71)",
+  "stacktrace": "#0 0x55987d1aad33 <unknown>\n#1 0x55987ce67f87 <unknown>\n#2 0x55987ceb7c0e <unknown>\n#3 0x55987ceb7d11 <unknown>\n#4 0x55987cf03004 <unknown>\n#5 0x55987cee136d <unknown>\n#6 0x55987cf00297 <unknown>\n#7 0x55987cee10e3 <unknown>\n#8 0x55987cea9044 <unknown>\n#9 0x55987ceaa44e <unknown>\n#10 0x55987d16f861 <unknown>\n#11 0x55987d173785 <unknown>\n#12 0x55987d15d285 <unknown>\n#13 0x55987d17441f <unknown>\n#14 0x55987d14120f <unknown>\n#15 0x55987d198028 <unknown>\n#16 0x55987d1981f7 <unknown>\n#17 0x55987d1a9ed4 <unknown>\n#18 0x7f081b608ac3 <unknown>\n"
+}

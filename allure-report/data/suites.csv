@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon Dec 11 17:51:21 EET 2023","Mon Dec 11 17:51:41 EET 2023","19375","","My Login application","","","","should login with valid credentials",""
+"passed","Mon Dec 11 22:18:30 EET 2023","Mon Dec 11 22:18:40 EET 2023","9330","","Logging with invalid Email and Password","","","","should not login with invalid credentials",""
+"passed","Mon Dec 11 22:10:57 EET 2023","Mon Dec 11 22:11:05 EET 2023","8289","","Logging with invalid Email and Password","","","","should not login with invalid credentials",""

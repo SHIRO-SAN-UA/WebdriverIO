@@ -1,5 +1,5 @@
 {
-  "name": "WebdriverIO",
+  "name": "wdio",
   "type": "module",
   "prettier": {
     "trailingComma": "es5",
@@ -14,10 +14,18 @@
     "@wdio/cli": "^8.26.0",
     "@wdio/local-runner": "^8.26.0",
     "@wdio/mocha-framework": "^8.24.12",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.ts"
+    "test:all": "wdio run ./wdio.conf.ts",
+    "test:single": "wdio run ./wdio.conf.ts --spec ./test/specs/loggingIn.e2e.ts",
+    "test:chrome": "wdio run ./wdio.conf.chrome.ts",
+    "test:firefox": "wdio run ./wdio.conf.firefox.ts",
+    "test:dev": "cross-env ENV=dev .wdio run ./wdio.conf.ts",
+    "test:staging": "cross-env ENV=staging .wdio run ./wdio.conf.ts",
+    "test:prod": "cross-env ENV=prod .wdio run ./wdio.conf.ts"
   }
 }

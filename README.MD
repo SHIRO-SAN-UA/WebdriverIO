@@ -3,8 +3,9 @@
 
 Automation framework for [https://telnyx.com/](https://telnyx.com/).
 
-<!-- ## Reports
-
+## Reports
+To view report locally run `npx allure generate && allure open`.
+<!-- ## 
 HTML Reporting system is hosted at [Github Pages](https://shiro-san-ua.github.io/PlaywrightIntro/). -->
 
 ## Technologies Stack
@@ -15,6 +16,8 @@ HTML Reporting system is hosted at [Github Pages](https://shiro-san-ua.github.io
 -   [Faker](https://fakerjs.dev/guide/) - brary that generates fake (but reasonable) data.
 -   [Allure report](https://allurereport.org/) - automation Test Reporting Tool.
 -   [Prettier](https://prettier.io/) - code formatter.
+-   [cross-env](https://www.npmjs.com/package/cross-env) - Run scripts that set and use environment variables across platforms. Change baseUrl?: string; to array; in ./node_modules/@wdio/types/build/Options.d.ts
+-   [dotenv](https://www.npmjs.com/package/dotenv) - Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.
 
 ## Setup
 
