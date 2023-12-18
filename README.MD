@@ -26,6 +26,7 @@ HTML Reporting system is hosted at [Github Pages](https://shiro-san-ua.github.io
 1.  Install Node.js.
 1.  Run `git clone https://github.com/SHIRO-SAN-UA/WebdriverIO` to clone repository.
 1.  Run `npm i` to install dependencies.
+1.  Rename `.env.example` to `.env` and fill with your actual testing data.
 
 <!-- ### How to run tests
 

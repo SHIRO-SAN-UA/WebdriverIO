@@ -1,4 +1,18 @@
+import urls from './data/urls.ts'
 import type { Options } from '@wdio/types'
+import * as dotenv from 'dotenv';
+
+dotenv.config(); // Automatically loads environment variables from .env file in root directory.
+
+// Define the allowed keys for urls
+type UrlsKey = 'dev' | 'staging' | 'prod';
+
+// Ensure env is one of the keys in urls or default to 'dev'
+const env: UrlsKey = (process.env.ENV as UrlsKey) || 'dev';
+
+// Debugging: log the URL to be used
+console.log(`Environment: ${env}, URL: ${urls[env]}`);
+
 export const config: Options.Testrunner = {
     //
     // ====================
@@ -116,7 +130,7 @@ export const config: Options.Testrunner = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://telnyx.com/',
+    baseUrl: urls[env],
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
